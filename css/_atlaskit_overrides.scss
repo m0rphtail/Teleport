@@ -1,0 +1,50 @@
+/**
+ * Move the @atlaskit/flag container up a little bit so it does not cover the
+ * toolbar with the first notification.
+ */
+.cjMOOK{
+    bottom: calc(#{$newToolbarSizeWithPadding}) !important;
+}
+
+/**
+ * Disable the slide-in animation for @atlaskit/flag due to the animation
+ * repeating for each queued flag once it becomes the top flag.
+ */
+ .mIBKA:first-child {
+    animation: cbfRuT 0s !important;
+    -webkit-animation: cbfRuT 0s !important;
+}
+
+.modal-dialog-form {
+    /**
+     * Update the @atlaskit/dropdown-menu trigger wrapper to make sure it looks
+     * click-able.
+     */
+    .cjJUnw {
+        cursor: pointer;
+    }
+
+    /**
+     * Override @atlaskit/dropdown-menu styling when in a modal because the
+     * dropdown backgrounds clash with the modal backgrounds.
+     */
+    .cksvax[data-role=droplistContent] {
+        border: 1px solid #455166;
+    }
+}
+
+/**
+ * Override @atlaskit/theme styling for the top toolbar so it displays over
+ * the video thumbnail while obscuring as little as possible.
+ */
+.videocontainer .tOoji {
+    background: none;
+}
+
+/**
+ * Override @atlaskit/InlineDialog styling for the overflowmenu so it displays
+ * with the correct height.
+ */
+.toolbox-button-wth-dialog .eYJELv {
+    max-height: initial;
+}
