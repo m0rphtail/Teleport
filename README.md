@@ -1,6 +1,8 @@
 # Nectar - A fork of Jitsi Meet
 
-# Jitsi Meet - Secure, Simple and Scalable Video Conferences
+Nectar comes with a few changes and added features
+
+## Jitsi Meet - Secure, Simple and Scalable Video Conferences
 
 Jitsi Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](#security) and scalable video conferences. Jitsi Meet in action can be seen at [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
 
@@ -63,7 +65,7 @@ Jitsi Meet provides a very flexible way of embedding in external applications by
 
 ## Jitsi Security
 
-WebRTC does not (yet) provide a way of conducting multi-party conversations with end-to-end encryption. 
+WebRTC does not (yet) provide a way of conducting multi-party conversations with end-to-end encryption.
 Unless you consistently compare DTLS fingerprints with your peers vocally, the same goes for one-to-one calls.
 As a result, your stream is encrypted on the network but decrypted on the machine that hosts the bridge when using Jitsi Meet.
 
